@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 interface SocialButtonsProps {
@@ -16,7 +16,12 @@ export default function SocialButtons({ className = "", iconSize = 20, variant =
         </a>
       </Button>
       <Button variant={variant} size="icon" className="text-gray-300 hover:text-violet-400 rounded-full" asChild>
-        <a href="https://www.linkedin.com/in/tamara-melnik/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <a
+          href="https://www.linkedin.com/in/tamara-melnik/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
           <Linkedin size={iconSize} />
         </a>
       </Button>
