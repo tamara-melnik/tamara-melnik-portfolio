@@ -234,7 +234,8 @@ export default function TechnologiesSection() {
           className="mt-12 text-center max-w-2xl mx-auto"
         >
           <p className="text-gray-600 dark:text-gray-400">
-            My tech stack is constantly evolving. I specialize in modern web development with a focus on performance, accessibility, and exceptional user experiences.
+            My tech stack is constantly evolving. I specialize in modern web development with a focus on performance,
+            accessibility, and exceptional user experiences.
           </p>
         </motion.div>
       </div>

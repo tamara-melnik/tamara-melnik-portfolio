@@ -8,7 +8,7 @@ export default function Logo() {
         TM
       </div>
       <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-green-400">
-         Tamara Melnik  
+        Tamara Melnik
       </span>
     </Link>
   )

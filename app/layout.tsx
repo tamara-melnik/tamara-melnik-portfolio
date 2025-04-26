@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 export const metadata = {
   title: "Tamara Melnik - Fullstack Developer",
   description: "Portfolio personal de Tamara Melnik, desarrolladora fullstack",
-    generator: 'v0.dev'
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
