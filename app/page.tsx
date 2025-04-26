@@ -1,7 +1,6 @@
 import Navbar from "@/components/navbar"
 import AboutSection from "@/components/about-section"
 import CareerSection from "@/components/career-section"
-import ProjectsSection from "@/components/projects-section"
 import TechnologiesSection from "@/components/technologies-section"
 import ContactSection from "@/components/contact-section"
 import CustomCursor from "@/components/custom-cursor"
@@ -24,7 +23,6 @@ export default function Home() {
       <AboutSection />
       <CareerSection />
       <TechnologiesSection />
-      <ProjectsSection />
       <ContactSection />
     </main>
   )

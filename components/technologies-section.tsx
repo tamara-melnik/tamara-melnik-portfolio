@@ -7,10 +7,11 @@ import SectionTitle from "./section-title"
 // Datos de tecnologías por categoría
 const technologies = {
   frontend: [
-    { name: "React", icon: "react", level: 90 },
+    //{ name: "React", icon: "react", level: 90 },
     { name: "Next.js", icon: "nextjs", level: 90 },
-    { name: "TypeScript", icon: "typescript", level: 80 },
+    { name: "Javascript", icon: "javascript", level: 80 },
     { name: "Tailwind CSS", icon: "tailwind", level: 90 },
+    { name: "Angular", icon: "angular", level: 95 },
     { name: "HTML5", icon: "html", level: 95 },
     { name: "CSS3", icon: "css", level: 90 },
   ],
@@ -48,7 +49,7 @@ const TechItem = ({ name, icon, level, index }: { name: string; icon: string; le
           </div>
 
           {/* Nombre de la tecnología */}
-          <h3 className="text-lg font-bold text-gray-800 dark:text-white mb-2">{name}</h3>
+          <h3 className="text-base sm:text-lg font-bold text-gray-800 dark:text-white mb-2">{name}</h3>
 
           {/* Barra de nivel */}
           <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5 mb-2">
@@ -78,9 +79,9 @@ const TechIcon = ({ name }: { name: string }) => {
   const iconMap: Record<string, string> = {
     react: "⚛️",
     nextjs: "N",
-    typescript: "TS",
+    javascript: "JS",
     tailwind: "TW",
-    html: "📄",
+    html: "HTML",
     css: "CSS",
     nodejs: "🌿",
     mongodb: "🍃",
@@ -90,6 +91,7 @@ const TechIcon = ({ name }: { name: string }) => {
     aws: "☁️",
     vscode: "🖥️",
     php: "🐘",
+    angular: "A",
   }
 
   return (
@@ -232,8 +234,7 @@ export default function TechnologiesSection() {
           className="mt-12 text-center max-w-2xl mx-auto"
         >
           <p className="text-gray-600 dark:text-gray-400">
-            Mi stack tecnológico está en constante evolución. Me especializo en desarrollo web moderno con un enfoque en
-            rendimiento, accesibilidad y experiencias de usuario excepcionales.
+            My tech stack is constantly evolving. I specialize in modern web development with a focus on performance, accessibility, and exceptional user experiences.
           </p>
         </motion.div>
       </div>

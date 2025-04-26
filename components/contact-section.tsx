@@ -102,14 +102,7 @@ export default function ContactSection() {
               </div>
             </div>
 
-            {/* Mapa o imagen */}
-            <div className="mt-8 rounded-lg overflow-hidden h-48 bg-gray-200 dark:bg-gray-800">
-              <img
-                src="/placeholder.svg?height=200&width=400&text=Map"
-                alt="Location map"
-                className="w-full h-full object-cover"
-              />
-            </div>
+            <div className="mt-8"></div>
           </div>
 
           {/* Formulario de contacto */}

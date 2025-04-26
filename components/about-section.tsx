@@ -124,18 +124,18 @@ export default function AboutSection() {
       {/* Canvas para la animación de manos */}
       <canvas ref={canvasRef} className="absolute inset-0 w-full h-full z-0" />
 
-      <div className="container mx-auto px-8 md:px-16 lg:px-24 relative z-10">
+      <div className="container mx-auto px-8 md:px-16 lg:px-24 py-12 md:py-20 relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-10">
           {/* Columna de texto */}
           <div className="md:w-1/2 text-center md:text-left">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
               <span className="block">Hi! I'm</span>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-green-400">
                 Tamara Melnik
               </span>
             </h1>
 
-            <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-8 max-w-lg">
+            <p className="text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-8 max-w-lg">
               Fullstack developer specialized in creating modern web experiences with a focus on performance,
               accessibility and beautiful design. Passionate about turning ideas into functional and elegant solutions.
             </p>
@@ -146,8 +146,8 @@ export default function AboutSection() {
                 size="lg"
                 asChild
               >
-                <a href="#projects">
-                  View Projects <ArrowRight className="ml-2 h-4 w-4" />
+                <a href="#technologies">
+                  View Skills <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
               </Button>
 
