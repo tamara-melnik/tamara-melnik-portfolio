@@ -122,8 +122,10 @@ export default function ProjectsSection() {
 
                 {/* Información del proyecto */}
                 <div className="p-4">
-                  <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-2">{project.title}</h3>
-                  <p className="text-gray-600 dark:text-gray-300 text-sm mb-4 line-clamp-4">{project.description}</p>
+                  <h3 className="text-lg sm:text-xl font-bold text-gray-800 dark:text-white mb-2">{project.title}</h3>
+                  <p className="text-gray-600 dark:text-gray-300 text-xs sm:text-sm mb-4 line-clamp-4">
+                    {project.description}
+                  </p>
 
                   {/* Tecnologías */}
                   <div className="flex flex-wrap gap-2">

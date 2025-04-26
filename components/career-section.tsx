@@ -73,17 +73,19 @@ export default function CareerSection() {
                 <div className="md:w-1/2">
                   <div className="bg-white dark:bg-gray-900/80 backdrop-blur-sm border border-gray-200 dark:border-violet-900/20 rounded-xl p-6 shadow-lg hover:shadow-violet-500/10 transition-all duration-300">
                     <div className="flex items-start gap-4 mb-4">
-                      <div className="w-12 h-12 rounded-full overflow-hidden bg-gray-100 dark:bg-gray-800 flex items-center justify-center relative">
+                      <div
+                        className={`${job.company === "FlowLabs" ? "w-16 h-16" : "w-12 h-12"} rounded-full overflow-hidden bg-gray-100 dark:bg-gray-800 flex items-center justify-center relative`}
+                      >
                         <Image
                           src={job.logo || "/placeholder.svg"}
                           alt={`${job.company} logo`}
                           fill
-                          className="object-contain p-1"
-                          sizes="48px"
+                          className={`object-contain ${job.company === "FlowLabs" ? "bg-white p-0.5" : "p-1"}`}
+                          sizes={job.company === "FlowLabs" ? "64px" : "48px"}
                         />
                       </div>
                       <div>
-                        <h3 className="text-xl font-bold text-gray-800 dark:text-white">{job.title}</h3>
+                        <h3 className="text-lg sm:text-xl font-bold text-gray-800 dark:text-white">{job.title}</h3>
                         <p className="text-violet-600 dark:text-violet-400">{job.company}</p>
                       </div>
                     </div>
@@ -103,7 +105,7 @@ export default function CareerSection() {
                       </div>
                     </div>
 
-                    <p className="text-gray-600 dark:text-gray-300 mb-4">{job.description}</p>
+                    <p className="text-gray-600 dark:text-gray-300 text-sm sm:text-base mb-4">{job.description}</p>
 
                     <div className="flex flex-wrap gap-2">
                       {job.skills.map((skill, skillIndex) => (
