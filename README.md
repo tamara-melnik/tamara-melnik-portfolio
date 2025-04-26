@@ -1,30 +1,54 @@
-# Portfolio web design
+# 🐤 Tamara Melnik - Profile Website
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+![Portfolio Screenshot](./portfolio_website.png)
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/tamuchi2001-gmailcoms-projects/v0-portfolio-web-design)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/3fzhbHdYp0N)
+### Portfolio Website Link: https://tamara-melnik.vercel.app/
 
-## Overview
+Welcome to my personal portfolio website! I'm **Tamara Melnik**, a **Ssr Fullstack Developer at Paycorr** – Passionate about **web and mobile development**. My work focuses on building secure, scalable applications with **Flutter**, **Node.js**, **Angular** and modern web technologies.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🌍 About Me
 
-## Deployment
+I specialize in:
 
-Your project is live at:
+- Full Stack Web Development (Java, PHP, Vue, Angular)
+- Building scalable, efficient, and user-centered applications
+- Mobile Development with Flutter (growing passion and skills)
+- Creating clean, maintainable, and high-quality code
 
-**[https://vercel.com/tamuchi2001-gmailcoms-projects/v0-portfolio-web-design](https://vercel.com/tamuchi2001-gmailcoms-projects/v0-portfolio-web-design)**
+I thrive on solving real-world problems through elegant and efficient software solutions. Whether it's developing robust backend systems, designing intuitive frontends, or exploring the mobile world, I love building at the intersection of technology, creativity, and impact.
 
-## Build your app
+My experience spans fast-paced startups and global companies like Globant, where I honed my skills in both structured environments and dynamic, evolving projects. I'm passionate about continuous learning, exploring new cultures, meeting diverse people, and living with curiosity and openness — both in tech and in life.
 
-Continue building your app on:
+## 🚀 Technologies Used
 
-**[https://v0.dev/chat/projects/3fzhbHdYp0N](https://v0.dev/chat/projects/3fzhbHdYp0N)**
+This website is built using the following languages and frameworks:
 
-## How It Works
+- **Next.js** (React framework for building server-side rendered and static web applications)
+- **Tailwind CSS** (Utility-first CSS framework for rapidly building custom designs)
+- **TypeScript and JavaScript**
+- **Node.js and npm**
+- **v0.dev** (used to quickly generate most components and structure)
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+### 📌 Run Locally
+
+To run this website locally, use the following commands:
+
+```bash
+npm i --legacy-peer-deps  # or `npm i --force`
+npm run dev
+```
+
+### ⚖️ License & Usage
+
+Anyone is free to use, modify, and redistribute this code to create their own portfolio website. There are no copyright restrictions.
+
+## 🌐 Connect with Me
+
+- **GitHub:** [github.com/aakash4dev](https://github.com/tamara-melnik)
+- **LinkedIn:** [linkedin.com/in/aakash4dev](https://www.linkedin.com/in/tamara-melnik/)
+
+🔥 Always excited to collaborate on cutting-edge blockchain projects and explore innovations in Web3. Feel free to connect—let's build the future together!
+
+---
+
+© 2025 Tamara Melnik
