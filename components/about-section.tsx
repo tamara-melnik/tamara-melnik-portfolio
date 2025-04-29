@@ -1,7 +1,7 @@
 "use client"
 
 import { useRef, useEffect } from "react"
-import { Download, ArrowRight } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
@@ -148,17 +148,6 @@ export default function AboutSection() {
               >
                 <a href="#technologies">
                   View Skills <ArrowRight className="ml-2 h-4 w-4" />
-                </a>
-              </Button>
-
-              <Button
-                variant="outline"
-                size="lg"
-                className="border-violet-500 text-gray-800 dark:text-white hover:bg-violet-100 dark:hover:bg-violet-900/20"
-                asChild
-              >
-                <a href="/tamara-melnik-cv.pdf" download>
-                  <Download className="mr-2 h-4 w-4" /> Download CV
                 </a>
               </Button>
             </div>

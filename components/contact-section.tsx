@@ -19,7 +19,7 @@ export default function ContactSection() {
       <div className="container mx-auto px-4 relative z-10">
         <SectionTitle title="contact" />
 
-        <div className="max-w-xl mx-auto">
+        <div className="max-w-xl">
           {/* Información de contacto */}
           <div className="bg-white dark:bg-gray-900/80 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-gray-200 dark:border-violet-900/20">
             <h3 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">Get in Touch</h3>
